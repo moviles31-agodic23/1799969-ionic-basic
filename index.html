@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cotainer">
+        <div class="card">
+            <h1>==== TICKET DE COMPRA ====</h1>
+            <form id="Form" action="">
+                <div class="row">
+                    <div class="colum">
+                        <label for="">Articulo</label>
+                        <label for="">Precio</label>
+                    </div>
+                    <div class="colum">
+                        <input id="Articulo" type="text">
+                        <input id="Precio" type="text">
+                    </div>                   
+                </div>
+                <button type="submit">Calcular Total</button>
+            </form>
+
+            <h4>========== TU TICKET ==========</h4>
+            <div class="Lista">
+                <ul id="UlArticulo">
+
+                </ul>
+    
+                <ul id="UlPrecios">
+
+                </ul>
+            </div>
+            <div class="total">
+                <span id="Total"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="/index.js"></script>
+</body>
+</html>
